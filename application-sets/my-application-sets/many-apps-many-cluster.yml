@@ -17,7 +17,7 @@ spec:
           - clusters: {}
           template:      
             metadata:
-              name: '{{path.basename}}-{{name}}'
+              name: '{{path.basename}}-{{server}}'
             spec:
       # The project the application belongs to.
               project: default
